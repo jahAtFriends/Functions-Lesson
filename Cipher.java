@@ -23,10 +23,10 @@ import java.util.Scanner;
 * expressed in latin characters (English alphabet). A key is required (usually
 * given as a text file) but can be fed into StdIn/System.in in a variety of
 * ways.
-* </br>
+* <br>
 * A fully-functional main method is provided which requires command line
 * arguments for encrypt/decrypt option selection and the text to process.
-* </br>
+* <br>
 * <b>Helpful Note:</b> When providing a key through System.in, the key
 * <i>must</i> be a scrambling of the complete, upper-case English alphabet.
 * Other keys may result in unexpected behavior.
@@ -131,6 +131,8 @@ public class Cipher {
     
     /**
     * Prints the given array of output to the terminal.
+    * @param output a char[] array to be printed letter-by-letter to the terminal
+    * on a single line.
     */
     public static void print(char[] output) {
         //Print each element of the array on the same line.
