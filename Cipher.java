@@ -30,8 +30,6 @@ import java.util.Scanner;
 * <b>Helpful Note:</b> When providing a key through System.in, the key
 * <i>must</i> be a scrambling of the complete, upper-case English alphabet.
 * Other keys may result in unexpected behavior.
-* </br>
-* <b> Another Helpful Hint
 */
 public class Cipher {
 
