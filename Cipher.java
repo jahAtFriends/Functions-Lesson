@@ -153,7 +153,7 @@ public class Cipher {
         
         //Require correct number of arguments.
         if (args.length != 2) {
-            System.out.println("Usage is java Cipher \[e or d\] \[message\] ");
+            System.out.println("Usage is java Cipher [e or d] [message] ");
             return;
         }
         
